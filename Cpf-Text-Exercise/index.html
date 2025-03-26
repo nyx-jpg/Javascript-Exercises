@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF e Editor de Texto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de CPF e Editor de Texto</h1>
+
+        <section>
+            <h2>Validador de CPF</h2>
+            <div class="converter">
+                <input type="text" id="cpf" placeholder="Digite o CPF">
+                <button onclick="validarCPF()">Validar CPF</button>
+                <p id="cpfResultado"></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Editor de Texto</h2>
+            <div class="converter">
+                <textarea id="editor" placeholder="Digite seu texto..."></textarea>
+                <div class="buttons">
+                    <button onclick="formatarNegrito()">Negrito</button>
+                    <button onclick="formatarItalico()">Itálico</button>
+                    <button onclick="formatarSublinhado()">Sublinhado</button>
+                    <button onclick="salvarConteudo()">Salvar</button>
+                    <button onclick="carregarConteudo()">Carregar</button>
+                </div>
+                <p id="editorFeedback"></p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

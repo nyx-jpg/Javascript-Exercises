@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversores e Calculadoras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversores e Calculadoras</h1>
+
+        <section>
+            <h2>Conversor de Temperatura</h2>
+            <div class="converter">
+                <input type="number" id="celsius" placeholder="Temperatura em Celsius">
+                <button onclick="converterCelsiusParaFahrenheit()">Celsius → Fahrenheit</button>
+                <p id="resultadoCelsius"></p>
+            </div>
+            <div class="converter">
+                <input type="number" id="fahrenheit" placeholder="Temperatura em Fahrenheit">
+                <button onclick="converterFahrenheitParaCelsius()">Fahrenheit → Celsius</button>
+                <p id="resultadoFahrenheit"></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Calculadora de IMC</h2>
+            <div class="converter">
+                <input type="number" id="peso" placeholder="Peso (kg)">
+                <input type="number" id="altura" placeholder="Altura (m)">
+                <button onclick="calcularIMC()">Calcular IMC</button>
+                <p id="imcResult"></p>
+                <p id="imcClassificacao"></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Gerador de Números Aleatórios</h2>
+            <div class="converter">
+                <input type="number" id="quantidade" placeholder="Quantidade" value="5">
+                <button onclick="gerarNumerosAleatorios()">Gerar Números</button>
+                <p id="numerosAleatorios"></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Validador de Senha</h2>
+            <div class="converter">
+                <input type="password" id="senha" placeholder="Senha">
+                <button onclick="validarSenha()">Validar Senha</button>
+                <p id="senhaFeedback"></p>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
