@@ -13,7 +13,3 @@ Cada exercício foi pensado para **reforçar conceitos essenciais** e tornar a j
 
 ## 🤝 **Contribua!**  
 Se tiver sugestões ou quiser adicionar novos desafios, fique à vontade para abrir uma **issue** ou um **pull request**! Vamos juntos evoluir! 🔥  
-
----
-
-Agora está mais completo e contextualizado! O que acha? 😃
